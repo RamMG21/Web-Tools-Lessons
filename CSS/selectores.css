@@ -1,0 +1,43 @@
+/* el * es el selector universal para cambiar todo lo del codigo html en cuestion de estilo	
+
+*
+{
+	color:red;
+}
+*/
+
+
+h1
+{
+	color: blue;
+}
+
+/*Selector decendente 
+es un filtro busca los parrafos que estan detro de un div*/
+ div p
+{
+	font-size: 20px;
+	color: black;
+}
+
+div article p 
+{
+	font-size: 20px;
+	color: red;
+}
+/*Buscamos dentro de los parrafos los articulos para cambiarlos*/
+p a
+{
+	color: green;
+}
+
+/*Seleccionamos la clase grand eponiendo un punto y depues el nombre de la clase*/
+.grande
+{
+	font-size: 30px;
+}
+.grande2
+{
+	font-size: 40px;
+}
+

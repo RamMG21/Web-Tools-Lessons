@@ -1,0 +1,32 @@
+/*Selector de hijos podemos seleccionar todos los parrafos dentro de un div solo queremos
+seeccionar los parrafos que sean directos de; DIV*/
+
+div > p
+{
+	font-size: 20px;
+	color: red;
+}
+/*Podemos seleccionar todos los input independientemente de su valor del type*/
+input[type]
+{
+
+}
+/*Si especificamos cuales inputs pues simplemente que tipo de input vamos a seleccionar
+que en este caso son los de tipo text.*/
+input[type="text"]
+{
+
+}
+/*Las propiedades suelen heredarse si solo dejamos el body todo seria decuerdo a lo que le agregamos
+pero abajo ya especificamos otro estilo para los  articulos.*/
+body
+{
+	font-size: 20px;
+	color: blue;
+}
+article
+{
+	font-size: 16px;
+	color: black;
+}
+
