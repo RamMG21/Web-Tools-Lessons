@@ -1,0 +1,30 @@
+a
+{
+	font-size: 20px;
+	/* quitamos el subrallado del enlace con la propiedad none*/
+	text-decoration: none;
+}
+
+/*Cunado pase el usario el raton ecima de nuestro enlace cambia el color resaltadno y dando refrencia de que es un 
+elemento seleccionable */
+a:hover{
+	background: #f9a03f;
+	color: #fff;
+}
+
+/*Se mostrara de un color difrente los enlaces no vistados*/
+a:link{
+	text-decoration: none;
+	color: red;
+}
+
+/*Enlace visitado*/
+a:visited{
+	color: gray;
+}
+
+/*Estado del enlace mientras se esta haciendo click*/
+a:active{
+	color: blue;
+	text-decoration: underline;
+}
