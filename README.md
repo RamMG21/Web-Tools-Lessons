@@ -1,2 +1,2 @@
-# Herramientas-WEB
- En este repositorio encontraras algunas herrammientas de progrmacion web en cuestion de estructura, diseño y funcionamiento.
+In this repository you will find some web programming tools in terms of structure, design and operation.
+
